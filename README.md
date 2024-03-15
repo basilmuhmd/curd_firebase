@@ -1,16 +1,23 @@
-# cured2
+# Firestore CRUD Web App
 
-A new Flutter project.
+This is a flutter web app to implement a simple CRUD operation of a product.
 
-## Getting Started
+## To Run the application follow the below steps
 
-This project is a starting point for a Flutter application.
+- Get all dependencies
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Generate the models and providers
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+dart run build_runner build
+```
+
+- Run the application
+
+```
+flutter run
+```
