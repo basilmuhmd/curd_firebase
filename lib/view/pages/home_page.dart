@@ -18,6 +18,7 @@ class HomePage extends StatelessWidget {
         ),
         body: Center(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
               ButtonWidget(
                 btnText: "Add Product",
@@ -30,16 +31,19 @@ class HomePage extends StatelessWidget {
                       ));
                 },
               ),
+              const SizedBox(height: 32),
               ButtonWidget(
                 btnText: "Update Product",
                 btnColor: Colors.yellow,
                 onTap: () {},
               ),
+              const SizedBox(height: 32),
               ButtonWidget(
                 btnText: "View Products",
                 btnColor: const Color.fromARGB(255, 139, 119, 222),
                 onTap: () {},
               ),
+              const SizedBox(height: 32),
               ButtonWidget(
                 btnText: "Delete Product",
                 btnColor: const Color.fromARGB(255, 236, 92, 44),

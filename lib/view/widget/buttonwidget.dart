@@ -15,7 +15,11 @@ class ButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onTap,
-      style: ElevatedButton.styleFrom(backgroundColor: btnColor),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: btnColor,
+        minimumSize: Size(MediaQuery.sizeOf(context).width * 0.7, 48),
+        foregroundColor: Colors.white,
+      ),
       child: Text(btnText),
     );
   }
