@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93310083558",
+    "project_id": "curd-addproduct",
+    "storage_bucket": "curd-addproduct.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93310083558:android:c0a546038da28f08723627",
+        "android_client_info": {
+          "package_name": "com.example.cured2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOTodV5VVdXPsQPY1pUuO42z-NMsjpNII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
